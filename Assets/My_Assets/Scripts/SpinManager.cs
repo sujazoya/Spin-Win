@@ -11,6 +11,11 @@ public class PopupItems
     public Text ammountText;
     public Button ok_Button;
 }
+[System.Serializable]
+public class SkinManager
+{
+
+}
 public class SpinManager : MonoBehaviour
 {
     [SerializeField] Text[] aommuntText;
